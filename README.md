@@ -34,9 +34,9 @@ Open up the relevant HTML file from the demo. Copy and paste the modal wrap. The
 	<div class="md-content">
 		<div class="form-wrap">
 		  
-		  <span class="logo"></span>
-		  <span class="md-close">✕</span>
-		  <h1>Login or register</h1>
+		    <span class="logo"></span>
+		    <span class="md-close">✕</span>
+		    <h1>Login or register</h1>
                     
                     <form method="post">
                       <input type="text" name="username" placeholder="Username" required />
