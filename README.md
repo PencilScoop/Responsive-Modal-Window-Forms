@@ -7,15 +7,15 @@ This can be used as a base to create modal window forms for login, signup, newsl
 
 ## Demo
 
-See the demo [here](http://www.pencilscoop.com/demos/modal-forms/demo/demo1.html/)
+See the demo [here](http://www.pencilscoop.com/demos/modal-forms/demo/demo1.html/).
 
 ## Blog Post
 
-See this blog post [here](http://www.pencilscoop.com/2014/03/responsive-modal-window-forms/) for information on how the effect works
+See this blog post [here](http://www.pencilscoop.com/2014/03/responsive-modal-window-forms/) for information on how the effect works.
 
 ## How To Use
 
-To use the modal window and forms on your own project follow these steps
+To use the modal window and forms on your own project follow these steps.
 
 ## Pick an effect you like
 
