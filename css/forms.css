@@ -1,0 +1,423 @@
+/* Common Form Styles */
+textarea {resize: none;}
+.form-wrap {
+    margin: 0 auto;
+    width: 300px;
+}
+.logo {
+	display: block;
+    width: 80px;
+    height: 80px;
+	background-size: 80px !important;
+    position: absolute;
+    top: -42px;
+    left: 124px;
+    border-radius: 50%;
+}
+ .btn-primary {
+ 	cursor: pointer;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: block;
+    background-color: #4a77d4;
+    background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4);
+    background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4));
+    background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4);
+    background-image: -o-linear-gradient(top, #6eb6de, #4a77d4);
+    background-image: linear-gradient(top, #6eb6de, #4a77d4);
+    background-repeat: repeat-x;
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);
+    border: 1px solid #3762bc;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    color: rgba(255, 255, 255, 0.75);
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -ms-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
+    outline: none;
+}
+.modal-wrap h1 {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+textarea, input, .forgot {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 4px;
+}
+.forgot {
+    margin: 10px 0;
+    cursor: pointer;
+}
+.no-member {
+    text-align: center;
+    padding-top: 10px;
+}
+.no-member p {
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.no-member a {
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+label {
+    font-size: 13px;
+    display: inline-block;
+    margin: 10px 0;
+    float: left;
+}
+.md-close {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    height: 19px;
+    width: 19px;
+    padding-left: 4px;
+    display: inline-block;
+    line-height: 19px;
+    border-radius: 60%;
+    font-family: Arial;
+}
+.md-close:hover {cursor: pointer;}
+.dropdown {
+    display: inline-block;
+    width: 130px;
+    height: 23px;
+    overflow: hidden;
+    margin: 6px 0 16px 30px;
+    outline: none;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+ .dropdown select {
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    line-height: 21px;
+    border-radius: 0;
+    -webkit-appearance: none;
+	-moz-appearance: window;
+	appearance: none;
+    cursor: pointer;
+}
+select:focus {outline: none; border: none;}
+.dropdown:after {
+    content: "";
+    background: url(../images/triangle.png) no-repeat;
+    width: 7px;
+    height: 5px;
+    background-size: 7px 5px;
+    position: absolute;
+    top: 10px;
+    right: 6px;
+}
+.dropdown.big {margin: 6px 0 16px 49px;width: 200px;}
+.dropdown.big select { width: 200px }
+
+input::-webkit-input-placeholder {color: #a9a9a9;}
+textarea::-webkit-input-placeholder {color: $a9a9a9;}
+
+input:-moz-placeholder {color: #a9a9a9;}
+textarea:-moz-placeholder {color:#a9a9a9;}
+
+input::-moz-placeholder { color: #a9a9a9;}
+textarea::-moz-placeholder { color: #a9a9a9;}
+
+input:-ms-input-placeholder {color: #a9a9a9;}
+textarea:-ms-input-placeholder {color: #a9a9a9;}
+
+input:focus::-webkit-input-placeholder {color:#c4c4c4;}
+textarea:focus::-webkit-input-placeholder {color:c4c4c4;}
+
+input:focus:-moz-placeholder {color:#c4c4c4;}
+textarea:focus:-moz-placeholder {color:#c4c4c4;}
+
+input:focus::-moz-placeholder {color:#c4c4c4;}
+textarea:focus::-moz-placeholder {color:#c4c4c4;}
+
+/* Demo 1 Styles */
+.md-effect-1 .logo {
+    background: #3c3650 url(../images/logo.png) -1px -1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+    outline: none !important;
+}
+.md-effect-1 textarea,
+.md-effect-1 input,
+.md-effect-1 .forgot {
+	background: rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-1 input:focus,
+.md-effect-1 textarea:focus {background: rgba(0,0,0,0.4); box-shadow: none;}
+.md-effect-1 .forgot { background: rgba(255,255,255,0); color: #a9a9a9; border: 1px solid rgba(0,0,0,0.2);}
+.md-effect-1 .forgot:hover { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4) }
+.md-effect-1 .no-member p {color: #a9a9a9;}
+.md-effect-1 .no-member a {color: #f2f2f2; text-shadow: 1px 1px 1px rgba(0,0,0,0.3);}
+.md-effect-1 .no-member a:hover { color: #fff }
+.md-effect-1 label {color: #a9a9a9;}
+.md-effect-1 .md-close {
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-1 .md-close:hover { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+.md-effect-1 .dropdown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.1), 0 1px 1px rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
+    color: #a9a9a9;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-1 .dropdown select {
+    background: transparent;
+    color: #a9a9a9;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.md-effect-1 .dropdown:hover {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4);
+}
+
+/* Demo 2 Styles */
+.md-effect-2 .logo {
+    background: #b4d1cb url(../images/logo.png) -1px -1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-2 .btn-primary { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);}
+.md-effect-2 textarea,
+.md-effect-2 input,
+.md-effect-2 .forgot,
+.md-effect-2 .md-close  {
+    background: rgba(100,100,100,0.2);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(255,255,255,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-2 input:hover,
+.md-effect-2 textarea:hover,
+.md-effect-2 .forgot:hover,
+.md-effect-2 .md-close:hover { box-shadow: inset 0 -5px 45px rgba(255,255,255,0.4), 0 1px 1px rgba(255,255,255,0.4) }
+.md-effect-2 input:focus, .md-effect-2 textarea:focus {background: rgba(0,0,0,0.4); box-shadow: none;}
+.md-effect-2 .forgot {
+    background: rgba(255,255,255,0);
+    color: #f0f0f0;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-2 .no-member p {color:#f0f0f0;}
+.md-effect-2 .no-member a {color:#FFF;}
+.md-effect-2 .no-member a:hover { color:#fff }
+.md-effect-2 label {color:#aaaaaa;}
+.md-effect-2 .dropdown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.1), 0 1px 1px rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-2 .dropdown select {
+    background: transparent;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.md-effect-2 .dropdown:hover {box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4);}
+
+/* Demo 3 Styles */
+.md-effect-3 .logo {
+    background: #3e3e3e url(../images/logo.png) -1px -1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-3 .btn-primary {box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);}
+.md-effect-3 textarea,
+.md-effect-3 input,
+.md-effect-3 .forgot,
+.md-effect-3 .md-close  {
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -5px 45px rgba(50,50,50,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-3 input:hover,
+.md-effect-3 textarea:hover,
+.md-effect-3 .forgot:hover,
+.md-effect-3 .md-close:hover { box-shadow: inset 0 -5px 45px rgba(20,20,20,0.2), 0 1px 1px rgba(255,255,255,0.2)}
+.md-effect-3 input:focus,.md-effect-3 textarea:focus {background: rgba(0,0,0,0.4); box-shadow: inset 0 -5px 45px rgba(0,0,0,0.4), 0 1px 1px rgba(255,255,255,0.4);}
+.md-effect-3 .forgot {
+    background: rgba(255,255,255,0);
+    color: #f0f0f0;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-3 .no-member p {color:#f0f0f0;}
+.md-effect-3 .no-member a {color: #FFF;}
+.md-effect-3 .no-member a:hover {color: #fff }
+.md-effect-3 label {color:  #f0f0f0;}
+.md-effect-3 .dropdown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.1), 0 1px 1px rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-3 .dropdown select {
+    background: transparent;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.md-effect-3 .dropdown:hover {box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4);}
+
+/* Demo 4 Styles */
+.md-effect-4 .logo {
+    background: #3e3e3e url(../images/logo.png) -1px -1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-4 .btn-primary {box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);}
+.md-effect-4 textarea,
+.md-effect-4 input,
+.md-effect-4 .forgot,
+.md-effect-4 .md-close  {
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -5px 45px rgba(50,50,50,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-4 input:hover,
+.md-effect-4 textarea:hover,
+.md-effect-4 .forgot:hover,
+.md-effect-4 .md-close:hover { box-shadow: inset 0 -5px 45px rgba(20,20,20,0.2), 0 1px 1px rgba(255,255,255,0.2)}
+.md-effect-4 input:focus,
+.md-effect-4 textarea:focus {
+	background: rgba(0,0,0,0.4);
+	box-shadow: inset 0 -5px 45px rgba(0,0,0,0.4), 0 1px 1px rgba(255,255,255,0.4);
+}
+.md-effect-4 .forgot {
+    background: rgba(255,255,255,0);
+    color: #f0f0f0;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-4 .no-member p {color:#f0f0f0;}
+.md-effect-4 .no-member a {color: #FFF;}
+.md-effect-4 .no-member a:hover { color: #fff }
+.md-effect-4 label {color:  #f0f0f0;}
+.md-effect-4 .dropdown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.1), 0 1px 1px rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-4 .dropdown select {
+    background: transparent;   
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.md-effect-4 .dropdown:hover {box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4);}
+
+/* Demo 4 Styles */
+.md-effect-5 .logo { 
+    background: #3e3e3e url(../images/logo.png) -1px -1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+/* Buttons */
+.md-effect-5 .btn-primary {box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);}
+.md-effect-5 textarea,
+.md-effect-5 input,
+.md-effect-5 .forgot,
+.md-effect-5 .md-close  {
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -5px 45px rgba(50,50,50,0.2), 0 1px 1px rgba(255,255,255,0.2);
+}
+.md-effect-5 input:hover,
+.md-effect-5 textarea:hover,
+.md-effect-5 .forgot:hover,
+.md-effect-5 .md-close:hover { box-shadow: inset 0 -5px 45px rgba(20,20,20,0.2), 0 1px 1px rgba(255,255,255,0.2)}
+.md-effect-5 input:focus,
+.md-effect-5 textarea:focus {
+	background: rgba(0,0,0,0.4);
+	box-shadow: inset 0 -5px 45px rgba(0,0,0,0.4), 0 1px 1px rgba(255,255,255,0.4);
+}
+.md-effect-5 .forgot {
+    background: rgba(255,255,255,0);
+    color: #f0f0f0;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-5 .no-member p {color: #f0f0f0;}
+.md-effect-5 .no-member a {color: #FFF;}
+.md-effect-5 .no-member a:hover {color: #fff }
+.md-effect-5 label {color:#f0f0f0;}
+.md-effect-5 .dropdown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.1), 0 1px 1px rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0);
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.md-effect-5 .dropdown select {
+    background: transparent;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.md-effect-5 .dropdown:hover {box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4);}
+
+@media screen and (max-width:480px) {
+.modal-wrap {
+position: fixed;
+left: 0;
+right: 0px;
+z-index: 2000;
+width: 100%;
+margin-top: 0 !important;
+margin-left: 0;
+height: 100%;
+top: 0px;
+}
+.md-content {height:100%;padding:100px 20px !important;}
+.form-wrap {width: 100%;}
+.logo {
+position: fixed;
+top: 20px;
+left: 50%;
+margin-left: -40px;
+margin-top: 0;
+}
+}
+
+
+@-moz-document url-prefix() {
+    .md-close {line-height:17px;padding:0px 0px 0px 5px;}
+   .dropdown select {padding: 3px 0px 0px 10px !important;} 
+}

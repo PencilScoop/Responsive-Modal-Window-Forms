@@ -1,0 +1,141 @@
+<!DOCTYPE html >
+<html lang="en" class="js" style="">
+<head>
+<meta charset="utf-8">
+<!-- meta info -->
+<title>Modal Form Effects Demo</title>
+<!-- Page Styles -->
+<link rel="stylesheet" type="text/css" href="css/page.css">
+<!-- Modal Effects -->
+<link rel="stylesheet" type="text/css" href="css/modals.css">
+<!-- Forms -->
+<link rel="stylesheet" type="text/css" href="css/forms.css">
+
+</head>
+
+<body class="preload demo5">
+
+<!-- modals -->
+
+<!-- modal 1 (login) -->
+<div class="modal-wrap md-effect-5" id="md-13">
+	<div class="md-content">
+		<div class="form-wrap">
+			<span class="logo"></span>
+			<span class="md-close">✕</span>
+			<h1>Login or register</h1>
+            <form method="post">
+                <input type="text" name="username" placeholder="Username" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <button type="submit" name="submit" class="btn-primary">Continue.</button>
+                <button class="forgot">Forgot Password.</button>
+            </form>
+            <div class="no-member"><p>Not a member?</p><a href=""> Sign up now →</a></div>
+		</div><!-- form wrap end -->
+	</div><!-- modal content end -->
+</div><!-- modal wrap end -->
+
+<!-- modal 2 (newsletter) -->
+<div class="modal-wrap md-effect-5" id="md-14">
+	<div class="md-content">
+		<div class="form-wrap">
+			<span class="logo"></span>
+			<span class="md-close">✕</span>
+			<h1>Subscribe to our newsletter</h1>
+            <form method="post">
+                <input type="text" name="Name" placeholder="Your Name" required />
+                <input type="email" name="Email" placeholder="Your Email Address" required />
+                <label for="frequency">Subscription frequency:</label>
+                	<div class="dropdown">
+                      <select name="frequency">
+                          <option value="1day">Every day</option>
+                          <option value="2week">Twice a week</option>
+                          <option value="1week">Once a week</option>
+                          <option value="1month">Once a month</option>
+                      </select>
+                    </div>
+                <button type="submit" name="submit" class="btn-primary">Sign Up.</button>
+            </form>
+		</div><!-- form-wrap end -->
+	</div><!-- modal content end -->
+</div><!-- modal wrap end -->
+
+<!-- modal 3 (contact) -->
+<div class="modal-wrap md-effect-5" id="md-15">
+	<div class="md-content">
+		<div class="form-wrap">
+			<span class="logo"></span>
+			<span class="md-close">✕</span>
+			<h1>Contact Us</h1>
+            <form method="post">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email Address" required />
+                <label for="subject">Subject:</label>
+                	<div class="dropdown big">
+                      <select name="subject">
+                          <option value="support">Customer support</option>
+                          <option value="report-a-bug">Report a bug</option>
+                          <option value="advertising">Advertising</option>
+                          <option value="say-hi">Just saying hi</option>
+                      </select>
+                    </div>
+                    <textarea class="text-area" name="message" placeholder="Your Message..."cols="50" rows="6"></textarea>
+                <button type="submit" name="submit" class="btn-primary">Submit.</button>
+            </form>
+		</div><!-- form-wrap end -->
+	</div><!-- modal content end -->
+</div><!-- modal wrap end -->
+
+<!-- page content -->
+<div class="content">
+	<!-- header -->
+	<header class="clearfix">
+		<a class="back left" href="http://www.pencilscoop.com/2014/03/responsive-modal-window-forms">← Back to Pencil Scoop Article</a>
+		<a class="back right" href="http://www.pencilscoop.com/">Back To HomePage →</a>
+		<h1>Animated SVG Icons With Pure CSS</h1>
+	</header>
+	<div class="main clearfix">
+      
+      <!-- demo buttons -->
+      <div>
+        <a class="button demo" href="index.html">Demo 1</a>
+        <a class="button demo" href="demo2.html">Demo 2</a>
+        <a class="button demo" href="demo3.html">Demo 3</a>
+        <a class="button demo" href="demo4.html">Demo 4</a>
+        <a class="button demo" href="demo5.html">Demo 5</a>
+      </div>
+      
+      <div class="clearfix"></div>
+      
+      <!-- modal trigger buttons -->
+      <div>
+        <button class="button md-click md-setperspective" data-modal="md-13">Login/Register</button>
+        <button class="button md-click md-setperspective" data-modal="md-14">Newsletter</button>
+        <button class="button md-click md-setperspective" data-modal="md-15">Contact Us</button>
+      </div>
+      
+	</div>
+</div>
+<!-- Overlay for background effect -->
+<div class="md-overlay"></div>
+
+<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+<script src="js/classie.js"></script>
+<!-- modal effects -->
+<script src="js/modal.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34702155-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

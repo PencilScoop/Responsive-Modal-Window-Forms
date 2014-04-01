@@ -1,0 +1,149 @@
+/* Page Styles */
+body,
+html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after { clear: both }
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    -moz-osx-font-smoothing: grayscale;
+}
+a { text-decoration: none }
+header {
+    width: 100%;
+    height: 100px;
+    background: #1a3258;
+    text-align: center;
+}
+header a:hover { color: #fff }
+header .right {
+    margin: 10px 20px 0 0px;
+    float: right;
+}
+header .left {
+    margin: 10px 0px 0 20px;
+    float: left;
+}
+header .back {
+    color: #CCC;
+    font-size: 13px;
+}
+header h1 {
+    color: #fff;
+    font-size: 23px;
+    padding-top: 15px;
+    font-weight: 300;
+}
+#content {
+    width: 100%;
+    overflow: hidden;
+    min-height: 100%;
+}
+.button {
+	display:inline-block;
+	margin: 20px 5px;
+    height: 19px;
+    line-height: 0px;
+    bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px 23px;
+    border: 1px solid #FFF;
+    color: #fff;
+    background: transparent;
+    -webkit-transition: :all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover,
+.button:active,
+.button:focus {
+    outline: none;
+}
+.button.demo {border: none;padding: 18px 15px;}
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+.main .clearfix { padding: 0 }
+.main div { padding: 100px 0 }
+
+
+/* Demo 1 */
+body.demo1 { background: #233d68;}
+body.demo1 header { background: #1a3258;}
+body.demo1 .button:hover, 
+body.demo1 .button:active, 
+body.demo1 .button:focus { background: #fff; color: #233d68;}
+body.demo1 .button.demo  { background: #1a3258;}
+body.demo1 .button.demo:hover { color: #fff; background: #1c3760;}
+
+/* Demo 2 */
+body.demo2 { background:#16a085;}
+body.demo2 header { background:#139078;}
+body.demo2 .button:hover,
+body.demo2 .button:active,
+body.demo2 .button:focus { background:#fff;color: #233d68;}
+body.demo2 .button.demo { background:#139078;}
+body.demo2 .button.demo:hover { color:#fff;background:#14987f;}
+
+/* Demo 3 */
+body.demo3 { background:#f1c40f;}
+body.demo3 header {background:#e2b80e;}
+body.demo3 .button:hover,
+body.demo3 .button:active,
+body.demo3 .button:focus {background:#fff; color: #233d68;}
+body.demo3 .button.demo {background:#e2b80e;}
+body.demo3 .button.demo:hover {color:#fff;background:#e7bc0e;}
+
+/* Demo 4 */
+body.demo4 { background:#ecf0f1;}
+body.demo4 header { background:#bdc3c7;}
+body.demo4 .button {color:#2c3e50; border:1px solid #2c3e50;}
+body.demo4 .button:hover,
+body.demo4 .button:active,
+body.demo4 .button:focus { color:#FFF;background:#2c3e50;}
+body.demo4 .button.demo { background:#bdc3c7;border:none;}
+body.demo4 .button.demo:hover {color:#fff;background:#ced5d9;}
+
+/* Demo 5 */
+body.demo5 { background:#191e20;}
+body.demo5 header { background:#9a9a9a;}
+body.demo5 .button:hover,
+body.demo5 .button:active,
+body.demo5 .button:focus { background:#fff;color:#0a0b0b;}
+body.demo5 .button.demo { background:#0a0b0b;}
+body.demo5 .button.demo:hover {color:#fff;background:#2c2c2c;}
+
