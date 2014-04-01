@@ -3,7 +3,7 @@ Responsive-Modal-Window-Forms
 
 ## Summary
 
-This can be used as a base to create modal window forms for login, signup, newsletter subscription and contact.
+This can be used as a base to create modal window forms for login, signup, newsletter subscription and contact. Here is how to implement it on your own project.
 
 ## Demo
 
@@ -23,7 +23,7 @@ Take a look at the demo and pick a form/effect that you like and download the so
 
 ## Add the modal to your page
 
-Open up the relevant HTML file from the demo. Copy and paste the modal wrap. The modal needs to go straight after the opening <code>body</code> tag on your page. Here is an example:
+Open up the relevant HTML file from the demo. Copy and paste the modal wrap to your own project. The modal needs to go straight after the opening <code>body</code> tag on your page. Here is an example:
 
 ```
 
@@ -68,7 +68,7 @@ Next, wrap your main page content in a <code>div</code> with the class <code>con
 
 ## Add the trigger button
 
-To trigger the modal you’ll need to add the relevant button for the modal you’ve chosen. The buttons use a <code>data-modal</code> attribute to link to the corresponding ID of the modal. In this example we’ve used <code>md-1</code> as the ad of the modal.
+To trigger the modal you’ll need to add the relevant button for the modal you’ve chosen. The buttons use a <code>data-modal</code> attribute to link to the corresponding ID of the modal. In this example we’ve used <code>md-1</code> as the ID of the modal.
 
 ```
 
